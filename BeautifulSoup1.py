@@ -1,8 +1,9 @@
+#http://books.toscrape.com/
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
 
 url = input("Enter url: ")
-html = url.request.urlopen(url).read()
+html = urllib.request.urlopen(url).read()
 soup = BeautifulSoup(html, "html.parser")
 
 tags = soup("a")
