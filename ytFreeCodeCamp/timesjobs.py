@@ -1,3 +1,4 @@
+#https://mebabit.github.io/forScraping/
 from bs4 import BeautifulSoup
 import requests
 import time
